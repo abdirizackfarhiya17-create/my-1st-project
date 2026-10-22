@@ -14,7 +14,7 @@ body {
 
 
 .navbar {
-    background-color: #c3d38a;
+    background-color: rgb(201, 174, 174);
     padding: 20px;
     display: flex;
     justify-content: center;
@@ -147,8 +147,6 @@ body {
     transform: translateY(-5px);
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
 }
-
-/* Inner Images inside Course blocks */
 .Courses-container img {
     width: 100%;
     height: 220px;
@@ -170,27 +168,22 @@ body {
     color: #666666;
 }
 
-
- 
-@media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        padding: 15px;
-    }
-    .navbar a {
-        margin: 6px 0;
-    }
-    .Hero h1 {
-        font-size: 24px;
-    }
-    .Hero h2 {
-        font-size: 20px;
-    }
-    section {
-        padding: 40px 15px;
-    }
+.navbar {
+    flex-direction: column;
+    padding: 15px;
+ }
+.navbar a {
+    margin: 6px 0;
 }
-
+.Hero h1 {
+     font-size: 24px;
+ }
+.Hero h2 {
+    font-size: 20px;
+}
+section {
+     padding: 40px 15px;
+}
 .Contact {
     background-color: #f7f6f4; /* Subtle warm stone gray background */
     border-top: 1px solid #eaeaea;
@@ -348,4 +341,13 @@ body {
 
 .hero-cta-btn:hover {
     background-color: #1b4332;
+}
+
+.site-footer {
+    background-color: rgb(194, 165, 165);
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+
 }
